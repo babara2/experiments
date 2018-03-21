@@ -1,4 +1,4 @@
-#Lightbox Viewer
+# Lightbox Viewer
 
 This program accepts user input for a photoset ID that it then uses to retrieve the photoset using the flickr **flickr.photosets.getPhotos** api. 
 

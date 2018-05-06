@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  padding-top: 10%;
+  margin: 0 auto;
+}
+
+.ui.input {
+  text-align: center;
+  vertical-align: middle;
+  width:50%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.active > div > .ui.input > input:focus{
+  background-color: #FAFEBD;
+}
+
+.error > div > .ui.input > input{
+  border-color: red;
+}
+
+.error > div > .ui.input > input:focus{
+  border: 1px solid red;
+  background-color: #FAFEBD;
+}
+
+.ui.button.picIdSubmit {
+  margin-top: 1%;
+  width:15%;
+}
+
+.errorDiv {
+  color: red;
+  margin-top: 2%;
+}
+
+.ui.button.lightboxButton {
+  margin-top: 5%;
+  width: 18%;
+  background-color: green;
+  color: white;
+}
